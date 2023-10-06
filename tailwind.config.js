@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         'primary': ['Montserrat', 'sans-serif'],
         'secondary': ['"Cormorant Garamond"', 'serif']
+      },
+      colors: {
+        'primary': '#f78da7'
       }
     },
   },
