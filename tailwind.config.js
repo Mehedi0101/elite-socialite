@@ -11,7 +11,10 @@ export default {
         'secondary': ['"Cormorant Garamond"', 'serif']
       },
       colors: {
-        'primary': '#f78da7'
+        'primary': '#f78da7',
+        'dark1': '#3e3930',
+        'dark2': '#776f60',
+        'dark3': '#bdb5aa'
       }
     },
   },

@@ -1,0 +1,50 @@
+[
+    {
+        "blog_id": 1,
+        "title": "Tips for a Perfect Wedding",
+        "author": "Jessica Johnson",
+        "cover": "https://i.ibb.co/B3mhR0V/Tips-for-a-Perfect-Wedding-1.jpg",
+        "date": "May 15, 2023",
+        "description": "Planning a wedding can be both exciting and overwhelming. From selecting the ideal venue to choosing the perfect color scheme, there are countless decisions to make. In this blog post, we'll share expert tips and advice to help you plan the wedding of your dreams. Whether you're going for a rustic outdoor wedding or an elegant ballroom affair, we've got you covered!"
+    },
+    {
+        "blog_id": 2,
+        "title": "Creating Memorable Gatherings",
+        "author": "Michael Smith",
+        "cover": "https://i.ibb.co/ByX4YL5/Creating-Memorable-Gatherings-1.jpg",
+        "date": "July 10, 2023",
+        "description": "Organizing a successful social event requires careful planning and attention to detail. From coordinating entertainment to arranging catering services, there's a lot to consider. In this blog post, we'll walk you through the essential steps of social event planning. Learn how to create an inviting atmosphere that keeps guests engaged, select a suitable venue, and ensure everything runs smoothly on the big day."
+    },
+    {
+        "blog_id": 3,
+        "title": "Themed Birthday Parties: Ideas and Inspiration",
+        "author": "Emily Davis",
+        "cover": "https://i.ibb.co/m561Dg9/Themed-Birthday-Parties-1.jpg",
+        "date": "August 25, 2023",
+        "description": "Throwing a memorable themed birthday party can be a blast for both kids and adults. From superhero themes to vintage Hollywood glamour, the possibilities are endless. In this blog post, we'll explore creative ideas and provide inspiration for planning the perfect themed birthday celebration. Get ready to transform your space and delight your guests with unique party themes and decorations."
+    },
+    {
+        "blog_id": 4,
+        "title": "Outdoor Event Planning: Tips for Success",
+        "author": "David Wilson",
+        "cover": "https://i.ibb.co/Z234BM4/Outdoor-Event-Planning-1.jpg",
+        "date": "June 06, 2023",
+        "description": "Outdoor events offer a fantastic opportunity to enjoy the beauty of nature while celebrating special occasions. However, they come with their own set of challenges. In this blog post, we'll share essential tips for planning successful outdoor events, whether it's a garden wedding, a picnic in the park, or a music festival. Discover how to handle unpredictable weather, choose the right outdoor decor, and ensure the comfort of your guests."
+    },
+    {
+        "blog_id": 5,
+        "title": "Making a Difference",
+        "author": "Sophia Miller",
+        "cover": "https://i.ibb.co/zrKTwS4/Making-a-Difference-1.jpg",
+        "date": "September 09, 2023",
+        "description": "Charity galas are not only glamorous but also meaningful events that raise funds for important causes. If you're considering organizing a charity gala, this blog post is a must-read. We'll guide you through the process of planning a successful gala, from securing sponsors and designing an impactful program to creating an elegant atmosphere that inspires generosity."
+    },
+    {
+        "blog_id": 6,
+        "title": "Holiday Party Planning: A Stress-Free Guide",
+        "author": "John Anderson",
+        "cover": "https://i.ibb.co/jbkNXjk/Holiday-Party-Planning-1.jpg",
+        "date": "August 30, 2023",
+        "description": "The holiday season is a perfect time to gather with friends and family for festive celebrations. However, hosting a holiday party can be stressful without proper planning. In this blog post, we'll provide you with a stress-free guide to planning the ultimate holiday party. From selecting the right date and sending out invitations to preparing delicious holiday treats and creating a cozy atmosphere, you'll be well-prepared to host a memorable event."
+    }
+]

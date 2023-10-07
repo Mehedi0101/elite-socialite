@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/6R2Q1Kz/wedding.jpg",
+        "title": "Wedding Ceremony",
+        "description": "Plan your dream wedding with us and make your special day unforgettable. Our expert team will ensure every detail is perfect."
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/LkQDyZx/anniversary-celebration-1.jpg",
+        "title": "Anniversary Celebration",
+        "description": "Celebrate your love story with a grand anniversary event. Let's make it magical with exquisite decor and heartfelt moments."
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/HN5MWYZ/engagement.webp",
+        "title": "Engagement Party",
+        "description": "Engage in style and create memories that will last a lifetime. We've got you covered with elegant venues and top-notch service."
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/F6pSn6F/birthday.webp",
+        "title": "Birthday Party",
+        "description": "Throw an amazing birthday party for yourself or a loved one. Let's make it spectacular with delicious food and exciting entertainment."
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/f4nVrhG/baby-shower.jpg",
+        "title": "Baby Shower",
+        "description": "Welcome the newest member of your family with a heartwarming baby shower event filled with laughter, games, and love."
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co/nLw8288/retirement-party-1.jpg",
+        "title": "Retirement Celebration",
+        "description": "Celebrate a well-deserved retirement in style and embark on a new journey. Let's make this momentous occasion truly special."
+    }
+]
