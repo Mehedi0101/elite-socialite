@@ -20,7 +20,7 @@ const Navbar = () => {
     return (
         <>
             {/* large device */}
-            <div className="hidden m-4 px-4 lg:flex items-center justify-between font-primary">
+            <div className="hidden m-4 px-8 lg:flex items-center justify-between font-primary text-dark1">
                 <div>
                     <img className="w-48 lg:w-72" src={logo} alt="" />
                 </div>
@@ -37,26 +37,26 @@ const Navbar = () => {
             </div>
 
             {/* medium device */}
-            <div className="hidden sm:flex lg:hidden md:m-4 px-4 justify-between mt-4">
+            <div className="hidden sm:flex lg:hidden md:m-4 px-4 md:px-8 justify-between mt-4 text-dark1">
                 <div className="flex items-center">
-                    <FiMenu onClick={()=>{setShowMenu(!showMenu)}} className="text-2xl mr-2" />
+                    <FiMenu onClick={()=>{setShowMenu(!showMenu)}} className="text-2xl mr-2 cursor-pointer" />
                     <Link to='/'><img className="w-48 mx-auto" src={logo} alt="" /></Link>
                 </div>
                 <div>
                     <button className="bg-primary text-white px-5 py-2 rounded font-medium active:scale-95 transition-transform">Login</button>
                 </div>
-                <div className={`absolute top-[70px] flex flex-col gap-3 text-white bg-[#000000BB] p-8 rounded ${!showMenu && 'hidden'}`}>
+                <div className={`absolute top-[70px] flex flex-col gap-3 text-white bg-[#000000BB] p-8 rounded z-10 ${!showMenu && 'hidden'}`}>
                     {links}
                 </div>
             </div>
 
             {/* small device */}
-            <div className="sm:hidden px-4 mt-4">
+            <div className="sm:hidden px-4 mt-4 text-dark1">
                 <div className="flex items-center">
-                    <FiMenu onClick={()=>{setShowMenu(!showMenu)}} className="text-2xl mr-2" />
+                    <FiMenu onClick={()=>{setShowMenu(!showMenu)}} className="text-2xl mr-2 cursor-pointer" />
                     <Link className="block mx-auto" to='/'><img className="w-40 -ml-2" src={logo} alt="" /></Link>
                 </div>
-                <div className={`absolute top-[70px] flex flex-col gap-3 text-white bg-[#000000BB] p-8 rounded ${!showMenu && 'hidden'}`}>
+                <div className={`absolute top-[70px] flex flex-col gap-3 text-white bg-[#000000BB] p-8 rounded z-10 ${!showMenu && 'hidden'}`}>
                     {links}
                     <button onClick={()=>{setShowMenu(false)}} className="bg-primary text-white px-5 py-2 rounded font-medium active:scale-95 transition-transform">Login</button>
                 </div>

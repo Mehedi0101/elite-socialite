@@ -3,8 +3,8 @@ import logo from "../../assets/Logo.png";
 
 const Footer = () => {
     return (
-        <footer className="bg-white rounded-lg shadow md:m-4 font-primary">
-            <div className="w-full max-w-screen-2xl mx-auto p-4 md:py-8">
+        <footer className="bg-white rounded-lg shadow md:mx-4 font-primary mt-28">
+            <div className="w-full max-w-screen-2xl mx-auto p-4 md:px-8 md:py-8">
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <Link to='/' className="flex items-center mb-4 sm:mb-0">
                         <img className="w-28 md:w-48" src={logo} alt="" />
