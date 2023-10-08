@@ -5,6 +5,8 @@ import Login from "../pages/Login";
 import Registration from "../pages/Registration";
 import PrivateRoute from "./PrivateRoute";
 import ServiceDetails from "../pages/ServiceDetails";
+import AllBlogs from "../pages/AllBlogs";
+import BlogDetails from "../pages/BlogDetails";
 
 const router = createBrowserRouter([
     {
@@ -13,12 +15,12 @@ const router = createBrowserRouter([
         children: [
             {
                 path: '/',
-                loader: () => fetch('./events.json'),
+                loader: () => fetch('/events.json'),
                 element: <Home></Home>
             },
             {
                 path: '/:serviceTitle',
-                loader: () => fetch('./events.json'),
+                loader: () => fetch('/events.json'),
                 element: <PrivateRoute><ServiceDetails></ServiceDetails></PrivateRoute>
             },
             {
@@ -28,6 +30,16 @@ const router = createBrowserRouter([
             {
                 path: '/registration',
                 element: <Registration></Registration>
+            },
+            {
+                path: '/blogs',
+                loader: () => fetch('/blogs.json'),
+                element: <PrivateRoute><AllBlogs></AllBlogs></PrivateRoute>
+            },
+            {
+                path: '/blogs/:blogId',
+                loader: () => fetch('/blogs.json'),
+                element: <PrivateRoute><BlogDetails></BlogDetails></PrivateRoute>
             }
         ]
     }

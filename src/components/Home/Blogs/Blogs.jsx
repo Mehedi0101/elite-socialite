@@ -1,14 +1,20 @@
 import { useEffect, useState } from "react";
 import Blog from "./Blog";
+import { useNavigate } from "react-router-dom";
 
 const Blogs = () => {
     const [blogs, setBlogs] = useState([]);
+    const navigate = useNavigate();
 
     useEffect(()=>{
         fetch('/blogs.json')
         .then(res => res.json())
         .then(data => setBlogs(data.slice(0,2)))
     },[])
+
+    const handleShowAll = () => {
+        navigate('/blogs');
+    }
 
     return (
         <>
@@ -17,7 +23,7 @@ const Blogs = () => {
                 blogs.map(blog => <Blog key={blog.blog_id} blog={blog}></Blog>)
             }
         </div>
-        <button className="bg-primary text-white px-5 py-2 rounded font-medium active:scale-95 transition-transform mx-auto block mt-5 md:mt-10">Show All</button>
+        <button onClick={handleShowAll} className="bg-primary text-white px-5 py-2 rounded font-medium active:scale-95 transition-transform mx-auto block mt-5 md:mt-10">Show All</button>
         </>
     );
 };
