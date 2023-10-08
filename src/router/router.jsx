@@ -7,6 +7,8 @@ import PrivateRoute from "./PrivateRoute";
 import ServiceDetails from "../pages/ServiceDetails";
 import AllBlogs from "../pages/AllBlogs";
 import BlogDetails from "../pages/BlogDetails";
+import Support from "../pages/Support";
+import AboutUs from "../pages/AboutUs";
 
 const router = createBrowserRouter([
     {
@@ -19,7 +21,7 @@ const router = createBrowserRouter([
                 element: <Home></Home>
             },
             {
-                path: '/:serviceTitle',
+                path: '/services/:serviceTitle',
                 loader: () => fetch('/events.json'),
                 element: <PrivateRoute><ServiceDetails></ServiceDetails></PrivateRoute>
             },
@@ -40,6 +42,14 @@ const router = createBrowserRouter([
                 path: '/blogs/:blogId',
                 loader: () => fetch('/blogs.json'),
                 element: <PrivateRoute><BlogDetails></BlogDetails></PrivateRoute>
+            },
+            {
+                path: '/support',
+                element: <PrivateRoute><Support></Support></PrivateRoute>
+            },
+            {
+                path: '/about-us',
+                element: <AboutUs></AboutUs>
             }
         ]
     }
