@@ -8,7 +8,7 @@ const Service = ({service}) => {
     const navigate = useNavigate();
 
     const handleGetStarted = () => {
-        navigate(`/${title}`)
+        navigate(`/services/${title}`)
     }
 
     return (

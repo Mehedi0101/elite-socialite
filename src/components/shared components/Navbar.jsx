@@ -64,8 +64,8 @@ const Navbar = () => {
                                 ?
                                 <div className="flex items-center gap-3 relative">
                                     <div className="bg-slate-200 text-dark1 px-5 py-2 rounded font-bold">{currentUser.displayName}</div>
-                                    <img onClick={() => { setShowUser(!showUser) }} className="w-14 h-14 object-cover rounded-full cursor-pointer border hover:border-2 border-primary" src={currentUser.photoURL || defaultUser} alt="" />
-                                    <div className={`absolute top-[70px] right-0 flex flex-col gap-3 text-white bg-[#000000BB] p-8 rounded z-10 ${!showUser && 'hidden'}`}>
+                                    <img onClick={() => { setShowUser(!showUser) }} className="w-12 h-12 object-cover rounded-full cursor-pointer border hover:border-2 border-primary" src={currentUser.photoURL || defaultUser} alt="" />
+                                    <div className={`absolute top-[60px] right-0 flex flex-col gap-3 text-white bg-[#000000BB] p-8 rounded z-10 ${!showUser && 'hidden'}`}>
                                         <p onClick={() => { setShowUser(false) }} className="mb-3 flex gap-2"><span className="font-bold">Email: </span>{currentUser.email}</p>
                                         <button onClick={() => { setShowUser(false); handleLogout(); }} className="bg-primary text-white px-5 py-2 rounded font-medium active:scale-95 transition-transform w-fit ml-auto">Logout</button>
                                     </div>
@@ -89,8 +89,8 @@ const Navbar = () => {
                             ?
                             <div className="flex items-center gap-3">
                                 <div className="bg-slate-200 text-dark1 px-5 py-2 rounded font-bold">{currentUser.displayName}</div>
-                                <img onClick={() => { setShowUser(!showUser) }} className="w-14 h-14 object-cover rounded-full cursor-pointer border hover:border-2 border-primary" src={currentUser.photoURL || defaultUser} alt="" />
-                                <div className={`flex absolute top-[90px] right-4 md:right-12 flex-col gap-3 text-white bg-[#000000BB] p-8 rounded z-10 ${!showUser && 'hidden'}`}>
+                                <img onClick={() => { setShowUser(!showUser) }} className="w-10 h-10 object-cover rounded-full cursor-pointer border hover:border-2 border-primary" src={currentUser.photoURL || defaultUser} alt="" />
+                                <div className={`flex absolute top-[60px] right-4 md:right-12 flex-col gap-3 text-white bg-[#000000BB] p-8 rounded z-10 ${!showUser && 'hidden'}`}>
                                     <p onClick={() => { setShowUser(false) }} className="mb-3"><span className="font-bold">Email: </span>{currentUser.email}</p>
                                     <button onClick={() => { setShowUser(false); handleLogout(); }} className="bg-primary text-white px-5 py-2 rounded font-medium active:scale-95 transition-transform w-fit ml-auto">Logout</button>
                                 </div>
