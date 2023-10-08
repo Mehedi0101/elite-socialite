@@ -18,7 +18,7 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: 
 
 <i>The Correct answer is option **B**. Because **"greeting"** is declared in the first line and an empty object is assigned to **"greetign"** which is **not declared**. As a result, we will get a **reference error**.</i>
 
@@ -43,9 +43,9 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: 
 
-<i>The correct answer is option **C**. 1 and "2" are passed as arguments in the sum function. Here 1 is of **number** type but "2" is of **string** type. When a number is added with a string Javascript **converts all the arguments to string** and concatenates them</i>
+<i>The correct answer is option **C**. 1 and "2" are passed as arguments in the sum function. Here 1 is of **number** type but "2" is of **string** type. When a number is added with a string Javascript **converts all the arguments to string** and concatenates them.</i>
 
 </p>
 </details>
@@ -69,9 +69,9 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: 
 
-<i>The correct answer is option **A**. In the first line an array **food** is declared and initialized. In the second line an object **info** is declared and assigned an object where **favoriteFood** is the only key. **food[0]** is the value of favoriteFood. In the next line, the value of the favoriteFood is changed but the original **food** array is not changed. Because the address of **food[0]** in the food array and the address of **favoriteFood** is not the same. As a result, the original **food** array hasn't mutated</i>
+<i>The correct answer is option **A**. In the first line an array **food** is declared and initialized. In the second line an object **info** is declared and assigned an object where **favoriteFood** is the only key. **food[0]** is the value of favoriteFood. In the next line, the value of the favoriteFood is changed but the original **food** array is not changed. Because the address of **food[0]** in the food array and the address of **favoriteFood** is not the same. As a result, the original **food** array hasn't mutated.</i>
 
 </p>
 </details>
@@ -94,7 +94,7 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: 
 
 <i>The correct answer is option **B**. **"name"** is passed as a parameter in **sayHi** function. But when it is called no argument is passed. As a result, we will get **Hi there, undefined** in the console. **Default Argument** can be used to get rid of this issue.</i>
 
@@ -122,9 +122,9 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: 
 
-<i>The correct answer is option **C**. By forEach method each element of **nums** array will be checked if it is a **truthy** or **falsy** value. For each truthy value, the **count** variable will be incremented. Since **0 is the only falsy value** in the array **3** will be displayed in the console</i>
+<i>The correct answer is option **C**. By forEach method each element of **nums** array will be checked if it is a **truthy** or **falsy** value. For each truthy value, the **count** variable will be incremented. Since **0 is the only falsy value** in the array **3** will be displayed in the console.</i>
 
 </p>
 </details>

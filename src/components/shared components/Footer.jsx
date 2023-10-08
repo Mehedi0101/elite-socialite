@@ -2,10 +2,11 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/Logo.png";
 
 const Footer = () => {
+
     return (
         <footer className="footer footer-center p-10 bg-white text-dark2 mt-20">
             <aside>
-                <img className="w-40 max-w-full" src={logo} alt="" />
+                <Link to='/'><img className="w-40 max-w-full" src={logo} alt="" /></Link>
                 <p>© 2023 EliteSocialite™. All Rights Reserved.</p>
             </aside>
             <nav>
