@@ -1,12 +1,20 @@
+import { useEffect } from "react";
 import cover from "../assets/about-us-cover.webp";
 import teammate1 from "../assets/expert.jpg";
 import teammate2 from "../assets/teammate-1.jpg";
 import teammate3 from "../assets/teammate-2.jpg";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const AboutUs = () => {
+
+    useEffect(() => {
+        AOS.init();
+    }, [])
+
     return (
         <div className="font-primary md:mx-4 px-4 md:px-8 mt-14 lg:mt-28">
-            <div className={'flex items-center gap-x-10 gap-y-4 mb-14 flex-col md:flex-row-reverse'}>
+            <div data-aos="fade-up" className={'flex items-center gap-x-10 gap-y-4 mb-14 flex-col md:flex-row-reverse'}>
                 <div className='w-full md:w-1/2'>
                     <img className='min-h-full' src={cover} alt="" />
                 </div>
@@ -16,7 +24,7 @@ const AboutUs = () => {
                 </div>
             </div>
 
-            <div className='grid items-center grid-cols-1 md:grid-cols-3 gap-10 mb-14 text-center font-primary text-dark1 mt-20'>
+            <div data-aos="fade-up" className='grid items-center grid-cols-1 md:grid-cols-3 gap-10 mb-14 text-center font-primary text-dark1 mt-20'>
                 <div className="">
                     <img className="w-full" src={teammate1} alt="" />
                     <h3 className="tracking-widest text-sm text-dark2 mt-5">Main Ceo</h3>

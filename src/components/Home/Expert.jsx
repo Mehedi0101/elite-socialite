@@ -1,11 +1,19 @@
+import { useEffect } from 'react';
 import expert from '../../assets/expert.jpg';
 import signature from '../../assets/signature.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 const Expert = () => {
+
+    useEffect(()=>{
+        AOS.init();
+    },[])
+
     return (
         <div className="md:mx-4 px-4 md:px-8 mt-28 font-primary">
             <h2 className='text-4xl md:text-5xl lg:text-6xl font-bold font-secondary text-center mb-10 text-dark1'>Meet Our Expert</h2>
-            <div className={'flex items-center justify-between gap-x-10 gap-y-4 mb-14 flex-col lg:flex-row-reverse'}>
+            <div data-aos="fade-up" className={'flex items-center justify-between gap-x-10 gap-y-4 mb-14 flex-col lg:flex-row-reverse'}>
                 <div className='w-full lg:w-1/2'>
                     <img className='' src={expert} alt="" />
                 </div>

@@ -1,10 +1,17 @@
 import Proptypes from 'prop-types';
 import { Link } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+import { useEffect } from 'react';
 
 const Blog = ({ blog }) => {
+    useEffect(()=>{
+        AOS.init();
+    },[])
+
     const { blog_id, title, cover, author, date, description } = blog;
     return (
-        <div className='flex flex-col justify-between'>
+        <div data-aos="fade-up" className='flex flex-col justify-between'>
             <div>
                 <img className='h-60 w-full object-cover' src={cover} alt="" />
             </div>
