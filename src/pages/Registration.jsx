@@ -8,7 +8,7 @@ import { AiOutlineEyeInvisible } from "react-icons/ai";
 import { AiOutlineEye } from "react-icons/ai";
 
 const Registration = () => {
-    const { signUpEmailPassword } = useContext(AuthContext);
+    const { signUpEmailPassword, logoutUser } = useContext(AuthContext);
     const navigate = useNavigate();
     const [passwordError, setPasswordError] = useState('');
     const [alreadyExistError, setAlreadyExistError] = useState(false);
@@ -60,6 +60,7 @@ const Registration = () => {
                     .then(() => { })
                     .catch(() => { })
 
+                logoutUser();
                 navigate('/login');
             })
 

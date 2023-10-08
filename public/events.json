@@ -3,36 +3,260 @@
         "id": 1,
         "image": "https://i.ibb.co/6R2Q1Kz/wedding.jpg",
         "title": "Wedding Ceremony",
-        "description": "Plan your dream wedding with us and make your special day unforgettable. Our expert team will ensure every detail is perfect."
+        "description": "Plan your dream wedding with us and make your special day unforgettable. Our expert team will ensure every detail is perfect.",
+        "details": {
+            "service_title": "Wedding Ceremony",
+            "overview": "Our wedding ceremony service is designed to create a magical and memorable moment that you'll cherish forever. We take care of every detail, ensuring a stress-free and enchanting experience.",
+            "key_features": [
+                "Venue selection and decoration",
+                "Officiant services",
+                "Customized vows",
+                "Ceremony music and sound",
+                "Coordination of procession and recession"
+            ],
+            "benefits": [
+                "A beautiful and meaningful ceremony tailored to your preferences",
+                "Professional officiants to guide you through the vows",
+                "A stress-free and well-organized ceremony",
+                "A magical start to your lifelong journey together"
+            ],
+            "how_it_works": [
+                "Initial consultation to discuss your vision",
+                "Venue selection and decoration planning",
+                "Customized vow creation",
+                "Rehearsal coordination",
+                "Flawless execution on your wedding day"
+            ],
+            "customization_options": [
+                "Choice of ceremony location (indoor, outdoor, destination)",
+                "Customized wedding vows and readings",
+                "Special themes or cultural elements",
+                "Music selection and live performances"
+            ],
+            "price_range": "$5,500 - $15,000",
+            "customer_support": "Our dedicated team is available 24/7 to answer your questions, provide guidance, and ensure your wedding ceremony is everything you've dreamed of.",
+            "payment_options": [
+                "Credit card",
+                "PayPal",
+                "Bank transfer",
+                "Payment plans available"
+            ],
+            "cancellation_refund_policy": "Cancellations made at least 30 days before the wedding date will receive a full refund. Cancellations within 30 days are subject to a 25% cancellation fee."
+        }
     },
     {
         "id": 2,
         "image": "https://i.ibb.co/LkQDyZx/anniversary-celebration-1.jpg",
         "title": "Anniversary Celebration",
-        "description": "Celebrate your love story with a grand anniversary event. Let's make it magical with exquisite decor and heartfelt moments."
+        "description": "Celebrate your love story with a grand anniversary event. Let's make it magical with exquisite decor and heartfelt moments.",
+        "details": {
+            "service_title": "Anniversary Celebration",
+            "overview": "Our anniversary celebration service is designed to help you commemorate your special milestone in style. Whether it's your 10th, 25th, or any other anniversary, we create unforgettable experiences that you and your loved ones will cherish forever.",
+            "key_features": [
+                "Venue selection and decoration",
+                "Customized anniversary themes",
+                "Catering and beverage services",
+                "Entertainment options (live music, DJ, or performers)",
+                "Anniversary cake and dessert table"
+            ],
+            "benefits": [
+                "A memorable and stress-free anniversary celebration",
+                "Expert event planning and coordination",
+                "Unique and personalized themes and decor",
+                "Delicious cuisine and drinks to delight your guests"
+            ],
+            "how_it_works": [
+                "Initial consultation to discuss your vision",
+                "Venue selection and decoration planning",
+                "Theme and concept development",
+                "Coordination of catering and entertainment",
+                "Flawless execution on your anniversary day"
+            ],
+            "customization_options": [
+                "Choice of anniversary theme and color palette",
+                "Customized anniversary invitations and stationery",
+                "Special touches and surprises for the couple",
+                "Entertainment preferences and special requests"
+            ],
+            "price_range": "$5,000 - $10,000",
+            "payment_options": [
+                "Credit card",
+                "PayPal",
+                "Bank transfer",
+                "Payment plans available"
+            ]
+        }
     },
     {
         "id": 3,
         "image": "https://i.ibb.co/HN5MWYZ/engagement.webp",
         "title": "Engagement Party",
-        "description": "Engage in style and create memories that will last a lifetime. We've got you covered with elegant venues and top-notch service."
+        "description": "Engage in style and create memories that will last a lifetime. We've got you covered with elegant venues and top-notch service.",
+        "details": {
+            "service_title": "Engagement Party",
+            "overview": "Celebrate your love story with a memorable engagement party that sets the stage for your journey together. Our engagement party service ensures a joyful and stress-free experience surrounded by friends and family.",
+            "key_features": [
+                "Venue selection and decoration",
+                "Customized engagement party themes",
+                "Catering and beverage services",
+                "Entertainment options (live music, DJ, or performers)",
+                "Engagement cake and dessert table"
+            ],
+            "benefits": [
+                "A joyful and hassle-free engagement party",
+                "Expert event planning and coordination",
+                "Personalized themes and decor that reflect your love story",
+                "Delicious cuisine and drinks to delight your guests"
+            ],
+            "how_it_works": [
+                "Initial consultation to discuss your vision",
+                "Venue selection and decoration planning",
+                "Theme and concept development based on your story",
+                "Coordination of catering and entertainment",
+                "Flawless execution on your engagement day"
+            ],
+            "customization_options": [
+                "Choice of engagement party theme and color palette",
+                "Customized engagement party invitations and stationery",
+                "Special touches and surprises for the couple",
+                "Entertainment preferences and special requests"
+            ],
+            "price_range": "$4,000 - $8,000",
+            "payment_options": [
+                "Credit card",
+                "PayPal",
+                "Bank transfer",
+                "Payment plans available"
+            ]
+        }
     },
     {
         "id": 4,
         "image": "https://i.ibb.co/F6pSn6F/birthday.webp",
         "title": "Birthday Party",
-        "description": "Throw an amazing birthday party for yourself or a loved one. Let's make it spectacular with delicious food and exciting entertainment."
+        "description": "Throw an amazing birthday party for yourself or a loved one. Let's make it spectacular with delicious food and exciting entertainment.",
+        "details": {
+            "service_title": "Birthday Party",
+            "overview": "Make your birthday unforgettable with our birthday party planning service. We specialize in creating fun and memorable celebrations that cater to your unique style and preferences.",
+            "key_features": [
+                "Venue selection and decoration",
+                "Themed birthday party setups",
+                "Catering and beverage services",
+                "Entertainment options (magicians, clowns, bands, DJs)",
+                "Birthday cake and dessert table"
+            ],
+            "benefits": [
+                "A stress-free and enjoyable birthday celebration",
+                "Expert event planning and coordination",
+                "Customized themes and decor to reflect your personality",
+                "Delicious food and drinks to please your guests"
+            ],
+            "how_it_works": [
+                "Initial consultation to understand your vision",
+                "Venue selection and decoration planning",
+                "Theme and concept development based on your preferences",
+                "Coordination of catering and entertainment",
+                "Seamless execution on your birthday"
+            ],
+            "customization_options": [
+                "Choice of birthday party theme and color scheme",
+                "Customized birthday invitations and party favors",
+                "Special surprises and activities tailored to your interests",
+                "Entertainment options and games of your choice"
+            ],
+            "price_range": "$500 - $2,500",
+            "payment_options": [
+                "Credit card",
+                "PayPal",
+                "Bank transfer",
+                "Payment plans available"
+            ]
+        }
     },
     {
         "id": 5,
         "image": "https://i.ibb.co/f4nVrhG/baby-shower.jpg",
         "title": "Baby Shower",
-        "description": "Welcome the newest member of your family with a heartwarming baby shower event filled with laughter, games, and love."
+        "description": "Welcome the newest member of your family with a heartwarming baby shower event filled with laughter, games, and love.",
+        "details": {
+            "service_title": "Baby Shower",
+            "overview": "Celebrate the upcoming arrival of your little one with a joyful and memorable baby shower. Our baby shower service is designed to create a special day filled with love, laughter, and beautiful memories.",
+            "key_features": [
+                "Venue selection and decoration",
+                "Themed baby shower setups",
+                "Catering and beverage services",
+                "Entertainment options (games, activities, photo booths)",
+                "Baby-themed cake and dessert table"
+            ],
+            "benefits": [
+                "A stress-free and heartwarming baby shower celebration",
+                "Expert event planning and coordination",
+                "Customized themes and decor to match your baby's gender or nursery theme",
+                "Delicious food and drinks to delight your guests"
+            ],
+            "how_it_works": [
+                "Initial consultation to discuss your baby shower vision",
+                "Venue selection and decoration planning",
+                "Theme and concept development based on your preferences",
+                "Coordination of catering and entertainment",
+                "Smooth execution on the day of the baby shower"
+            ],
+            "customization_options": [
+                "Choice of baby shower theme and color scheme",
+                "Customized baby shower invitations and party favors",
+                "Special activities and games tailored to your guests",
+                "Personalized baby shower gifts and keepsakes"
+            ],
+            "price_range": "$800 - $3,500",
+            "payment_options": [
+                "Credit card",
+                "PayPal",
+                "Bank transfer",
+                "Payment plans available"
+            ]
+        }
     },
     {
         "id": 6,
         "image": "https://i.ibb.co/nLw8288/retirement-party-1.jpg",
         "title": "Retirement Celebration",
-        "description": "Celebrate a well-deserved retirement in style and embark on a new journey. Let's make this momentous occasion truly special."
+        "description": "Celebrate a well-deserved retirement in style and embark on a new journey. Let's make this momentous occasion truly special.",
+        "details": {
+            "service_title": "Retirement Celebration",
+            "overview": "Mark the end of your working journey and the beginning of a new chapter with a memorable retirement celebration. Our retirement celebration service is designed to honor your accomplishments and create a meaningful and enjoyable experience for you and your loved ones.",
+            "key_features": [
+                "Venue selection and decoration",
+                "Personalized retirement themes",
+                "Catering and beverage services",
+                "Entertainment options (live music, speeches, photo retrospectives)",
+                "Retirement cake and dessert table"
+            ],
+            "benefits": [
+                "A heartfelt and stress-free retirement celebration",
+                "Expert event planning and coordination",
+                "Customized themes and decor to reflect your interests and achievements",
+                "Delicious cuisine and drinks to delight your guests"
+            ],
+            "how_it_works": [
+                "Initial consultation to discuss your retirement vision",
+                "Venue selection and decoration planning",
+                "Theme and concept development based on your journey",
+                "Coordination of catering and entertainment",
+                "Seamless execution on the day of your retirement celebration"
+            ],
+            "customization_options": [
+                "Choice of retirement theme and color scheme",
+                "Customized retirement invitations and memorabilia",
+                "Special activities and speeches tailored to your career highlights",
+                "Personalized retirement gifts and mementos"
+            ],
+            "price_range": "$1,500 - $5,000",
+            "payment_options": [
+                "Credit card",
+                "PayPal",
+                "Bank transfer",
+                "Payment plans available"
+            ]
+        }
     }
 ]
