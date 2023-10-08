@@ -15,12 +15,12 @@ const AboutUs = () => {
     }, [])
 
     return (
-        <div className="font-primary md:mx-4 px-4 md:px-8 mt-14 lg:mt-28">
+        <div data-aos="fade-up"  className="font-primary md:mx-4 px-4 md:px-8 mt-14 lg:mt-28">
             <div className={'flex items-center gap-x-10 gap-y-4 mb-14 flex-col md:flex-row-reverse'}>
                 <div className='w-full md:w-1/2'>
                     <img className='min-h-full' src={cover} alt="" />
                 </div>
-                <div data-aos="fade-up" className='w-full md:w-1/2 text-center md:text-left'>
+                <div className='w-full md:w-1/2 text-center md:text-left'>
                     <h2 className='font-secondary font-bold text-3xl md:text-4xl lg:text-5xl text-dark1 mb-3 md:mb-5'>Create an event</h2>
                     <p className='text-sm md:text-base text-dark2 mb-2 md:mb-4'>Whether you&apos;re planning a corporate conference, a dazzling wedding, a milestone celebration, or any other special occasion, our service is your canvas for innovation. We understand that every event is unique, and that&apos;s why we offer a customizable platform that allows you to bring your ideas to life.</p>
                 </div>
