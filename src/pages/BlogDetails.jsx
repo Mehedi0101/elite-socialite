@@ -13,6 +13,7 @@ const BlogDetails = () => {
     const blogs = useLoaderData();
     const { blogId } = useParams();
     const { title,author,cover,date,description } = blogs.find(blog => blog.blog_id === Number(blogId));
+    document.title = title;
     const navigate = useNavigate();
 
     const handleGoBack = () => {

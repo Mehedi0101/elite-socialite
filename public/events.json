@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "https://i.ibb.co/6R2Q1Kz/wedding.jpg",
+        "image": "https://i.ibb.co/KrxZFcW/wedding-min.jpg",
         "title": "Wedding Ceremony",
         "description": "Plan your dream wedding with us and make your special day unforgettable. Our expert team will ensure every detail is perfect.",
         "details": {
@@ -46,7 +46,7 @@
     },
     {
         "id": 2,
-        "image": "https://i.ibb.co/LkQDyZx/anniversary-celebration-1.jpg",
+        "image": "https://i.ibb.co/0hMxb45/anniversary-celebration-min.jpg",
         "title": "Anniversary Celebration",
         "description": "Celebrate your love story with a grand anniversary event. Let's make it magical with exquisite decor and heartfelt moments.",
         "details": {
@@ -89,7 +89,7 @@
     },
     {
         "id": 3,
-        "image": "https://i.ibb.co/HN5MWYZ/engagement.webp",
+        "image": "https://i.ibb.co/n1nXGX6/engagement-min.jpg",
         "title": "Engagement Party",
         "description": "Engage in style and create memories that will last a lifetime. We've got you covered with elegant venues and top-notch service.",
         "details": {
@@ -132,7 +132,7 @@
     },
     {
         "id": 4,
-        "image": "https://i.ibb.co/F6pSn6F/birthday.webp",
+        "image": "https://i.ibb.co/wMSnWn0/birthday.jpg",
         "title": "Birthday Party",
         "description": "Throw an amazing birthday party for yourself or a loved one. Let's make it spectacular with delicious food and exciting entertainment.",
         "details": {
@@ -175,7 +175,7 @@
     },
     {
         "id": 5,
-        "image": "https://i.ibb.co/f4nVrhG/baby-shower.jpg",
+        "image": "https://i.ibb.co/YkKyFt1/baby-shower-1-min.jpg",
         "title": "Baby Shower",
         "description": "Welcome the newest member of your family with a heartwarming baby shower event filled with laughter, games, and love.",
         "details": {
@@ -218,7 +218,7 @@
     },
     {
         "id": 6,
-        "image": "https://i.ibb.co/nLw8288/retirement-party-1.jpg",
+        "image": "https://i.ibb.co/wKxgttL/retirement-party-min.jpg",
         "title": "Retirement Celebration",
         "description": "Celebrate a well-deserved retirement in style and embark on a new journey. Let's make this momentous occasion truly special.",
         "details": {

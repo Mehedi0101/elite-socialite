@@ -15,6 +15,7 @@ const ServiceDetails = () => {
     const { serviceTitle } = useParams();
     const { details, image } = allData.find(service => service.title === serviceTitle);
     const { service_title, overview, key_features, benefits, how_it_works, customization_options, price_range, payment_options } = details;
+    document.title = service_title;
     const navigate = useNavigate();
 
     const handleGoBack = () => {

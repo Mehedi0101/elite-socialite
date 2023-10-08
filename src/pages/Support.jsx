@@ -4,6 +4,7 @@ import Swal from 'sweetalert2';
 import { useNavigate } from "react-router-dom";
 
 const Support = () => {
+    document.title = "Support";
     const { currentUser } = useContext(AuthContext);
     const navigate = useNavigate();
 

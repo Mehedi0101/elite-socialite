@@ -9,6 +9,7 @@ import { AiOutlineEye } from "react-icons/ai";
 import { FcGoogle } from "react-icons/fc";
 
 const Registration = () => {
+    document.title = "Registration";
     const { signUpEmailPassword, logoutUser, googleLogin } = useContext(AuthContext);
     const navigate = useNavigate();
     const [passwordError, setPasswordError] = useState('');
