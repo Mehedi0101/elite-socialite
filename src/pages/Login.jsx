@@ -7,7 +7,7 @@ import { FcGoogle } from "react-icons/fc";
 
 const Login = () => {
     const [showPassword, setShowPassword] = useState(false);
-    const { loginEmailPassword, googleLogin } = useContext(AuthContext);
+    const { loginEmailPassword, googleLogin, setLoading } = useContext(AuthContext);
     const [credentialsError, setCredentialsError] = useState(false);
     const navigate = useNavigate();
     const { state } = useLocation();
@@ -41,6 +41,7 @@ const Login = () => {
 
             .catch(() => {
                 setCredentialsError(true);
+                setLoading(false);
             })
     }
 
@@ -76,14 +77,14 @@ const Login = () => {
                         showPassword ? <AiOutlineEyeInvisible onClick={() => setShowPassword(!showPassword)} className="absolute top-[20%] right-2 text-2xl cursor-pointer" /> : <AiOutlineEye onClick={() => setShowPassword(!showPassword)} className="absolute top-[20%] right-2 text-2xl cursor-pointer" />
                     }
                 </div>
-                <div className="font-medium mb-10">
+                {
+                    credentialsError && <p className="text-red-500 text-xs -mt-8 mb-8 max-w-full w-[400px]">*Invalid email and password</p>
+                }
+                <div className="font-medium mb-5">
                     <input className="mr-1 cursor-pointer" type="checkbox" name="remember" id="remember" />
                     <label htmlFor="remember">Remember Me</label>
                 </div>
                 <button className='px-5 py-2 bg-primary rounded text-white active:scale-95 transition-transform w-full font-medium mb-3'>Login</button>
-                {
-                    credentialsError && <p className="text-red-500 text-xs -mt-3 mb-3 max-w-full w-[400px]">*Invalid email and password</p>
-                }
                 <div className="flex justify-center gap-1 text-sm font-medium">
                     <p>Don&apos;t have an account?</p>
                     <Link className="text-primary underline" to='/registration'>Register</Link>
