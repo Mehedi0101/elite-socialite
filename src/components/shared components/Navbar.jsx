@@ -16,8 +16,8 @@ const Navbar = () => {
         <>
             <NavLink onClick={() => { setShowMenu(false) }} to='/'>Home</NavLink>
             <NavLink onClick={() => { setShowMenu(false) }} to='/blogs'>Blogs</NavLink>
-            <NavLink onClick={() => { setShowMenu(false) }} to='/services'>Support</NavLink>
-            <NavLink onClick={() => { setShowMenu(false) }} to='/bookings'>About Us</NavLink>
+            <NavLink onClick={() => { setShowMenu(false) }} to='/support'>Support</NavLink>
+            <NavLink onClick={() => { setShowMenu(false) }} to='/about-us'>About Us</NavLink>
         </>
 
     const [showMenu, setShowMenu] = useState(false);
