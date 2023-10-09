@@ -123,7 +123,7 @@ const Registration = () => {
                         <hr className="border-[1px] border-[#C5C5C5] w-full" />
                     </div>
                     <div>
-                        <div onClick={handleGoogle} className='px-5 py-2 text-black active:scale-95 transition-transform w-full font-medium mb-3 flex items-center border border-[#C5C5C5] rounded-full cursor-pointer'><FcGoogle className="text-2xl" /><p className="mx-auto">Continue with Google</p></div>
+                        <div onClick={handleGoogle} className='px-5 py-2 text-black active:scale-95 transition-transform w-full font-medium mb-3 flex items-center border border-[#C5C5C5] rounded-full cursor-pointer text-center'><FcGoogle className="text-2xl" /><p className="mx-auto">Continue with Google</p></div>
                     </div>
                 </div>
             </form>

@@ -11,11 +11,13 @@ const AboutUs = () => {
     document.title = "About Us";
 
     useEffect(() => {
-        AOS.init();
-    }, [])
+        AOS.init({
+            duration: 500
+        });
+    }, []);
 
     return (
-        <div data-aos="fade-up"  className="font-primary md:mx-4 px-4 md:px-8 mt-14 lg:mt-28">
+        <div data-aos="fade-up" className="font-primary md:mx-4 px-4 md:px-8 mt-14 lg:mt-28">
             <div className={'flex items-center gap-x-10 gap-y-4 mb-14 flex-col md:flex-row-reverse'}>
                 <div className='w-full md:w-1/2'>
                     <img className='min-h-full' src={cover} alt="" />
