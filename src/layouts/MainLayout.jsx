@@ -5,7 +5,7 @@ import ScrollToTop from "../utils/scrollToTop";
 
 const MainLayout = () => {
     return (
-        <div>
+        <div className="overflow-x-hidden">
             <ScrollToTop />
             <Navbar></Navbar>
             <div className="min-h-[60vh]">
