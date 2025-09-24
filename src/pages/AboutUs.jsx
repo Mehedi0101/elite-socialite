@@ -34,11 +34,13 @@ const AboutUs = () => {
                     <h3 className="tracking-widest text-sm text-dark2 mt-5">Main Ceo</h3>
                     <h2 className="font-secondary lg:text-4xl md:text-3xl text-2xl">Emily Johnson</h2>
                 </div>
+
                 <div className="">
                     <img className="w-full" src={teammate3} alt="" />
                     <h3 className="tracking-widest text-sm text-dark2 mt-5">Catering Expert</h3>
                     <h2 className="font-secondary lg:text-4xl md:text-3xl text-2xl">Alexander Johnson</h2>
                 </div>
+                
                 <div className="">
                     <img className="w-full" src={teammate2} alt="" />
                     <h3 className="tracking-widest text-sm text-dark2 mt-5">Event Planner</h3>
